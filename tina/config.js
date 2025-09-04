@@ -9,10 +9,11 @@ const branch =
 
 export default defineConfig({
   branch,
-  clientId: "46695f10-1565-45fa-851b-296bd310b946", // From your TinaCMS dashboard
-  token: "a69992e16a664001962a7b73b03a77a4ac0ffca9", // Your Content (Read-only) token
-  // ... rest of config
-});
+
+  // Get this from tina.io
+  clientId: "46695f10-1565-45fa-851b-296bd310b946",
+  // Get this from tina.io
+  token: "a69992e16a664001962a7b73b03a77a4ac0ffca9",
 
   build: {
     outputFolder: "admin",
@@ -40,10 +41,27 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
           },
         ],
       },
