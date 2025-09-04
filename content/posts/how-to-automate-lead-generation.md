@@ -65,7 +65,7 @@ This automation system has transformed my business. Instead of manually hunting 
 
 I'm currently taking on 5 new clients for custom lead generation automation setups. The investment pays for itself within 30 days through increased lead volume alone.
 
-[Book a free strategy call to discuss your automation needs.](https://calendly.com/your-link)
+[Book a free strategy call to discuss your automation needs.](https://cal.com/clent-mendelebar/30min)
 
 ---
 
